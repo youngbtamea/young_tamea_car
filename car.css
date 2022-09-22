@@ -1,0 +1,201 @@
+body{
+	background-image:url(backg.png) ;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-size: cover;
+}
+*{
+
+	margin: 0;
+	padding: 0;                                                                                                                            
+	box-sizing: border-box;
+	
+
+}
+.head{
+	color: white;
+	align-items: center;
+	margin-left: 38px;
+	font-family: century;
+	font-size: 3.5rem;
+	font-weight: bold;
+	display: flex;
+}
+.head img{
+	height: 200px;
+	width: 350px;
+	
+}
+ul{
+	margin-left: 150px;
+
+	padding: 0px;
+	list-style: none;
+	position: sticky;
+
+	top: 0;
+}
+ul li{
+	float: left;
+	width: 200px;
+	height: 40px;
+	background-color: darkorange;
+	opacity: .9;
+	line-height: 40px;
+	text-align: center;
+	font-size: 20px;
+	margin-right: 2px;
+	top: 0;
+}
+ul li a{
+	text-decoration: none;
+	color: white;
+	display: block;
+	transition: all .5s ease;
+	top: 0;
+}
+ul li a:hover{
+	background-color: purple;
+}
+ul li ul li{
+	display: none;
+}
+ul li:hover ul li{
+	display: block;
+}
+.all{
+	background-color: rgba(0, 0, 0, 0.7);
+	margin-left: 40px;
+	margin-right: 40px;
+
+}
+.h{
+	font-family: century;
+	font-size: 5.7rem;
+	font-weight: bold;
+	color: pink;
+	text-align: center;
+}
+.hh{
+	text-align: center;
+	font-size: 1.7rem;
+	font-family: century;
+	color: darkorange;
+}
+.all img{
+	height: 200px;
+	width: 300px;
+	margin-left: 30px;
+	margin-top: 0px;
+}
+.hhh{
+	font-family: century;
+	font-weight: bold;
+	font-size: 30px;
+	color: lightsteelblue;
+	margin-left: 30px;
+}
+.lam{
+	display: flex;
+	color: white;
+	font-size: 20px;
+	background-color: rgba(0, 0, 0, 0.9);
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.sole{
+	
+	display: flex;
+
+}
+.sole img:hover{
+background-color: white;
+	width: 680px;
+	height: 580px;
+	box-shadow: 0 0 10px red;
+}
+.hhhh{
+	font-family: century;
+	font-weight: bold;
+	font-size: 30px;
+	color: tomato;
+	margin-left: 30px;
+}
+.fer{
+	display: flex;
+	color: white;
+	font-size: 20px;
+	background-color: red;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.sole1{
+	
+	display: flex;
+	
+}
+.sole1 img:hover{
+background-color: white;
+	width: 680px;
+	height: 580px;
+	box-shadow: 0 0 10px red;
+}
+.hhhhh{
+	font-family: century;
+	font-weight: bold;
+	font-size: 30px;
+	color: purple;
+	margin-left: 30px;
+}
+.por{
+	display: flex;
+	color: black;
+	font-size: 20px;
+	background-color: darkorange;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.sole2{
+	
+	display: flex;
+	
+}
+.sole2 img:hover{
+background-color: white;
+	width: 680px;
+	height: 580px;
+	box-shadow: 0 0 10px red;
+}
+.end{
+	background-color: blue;
+	border: dotted;
+	color: white;
+
+
+}
+
+.end2{
+	display: flex;
+	margin-left: 30px;
+
+}
+.end2 ul{
+	list-style: none;
+	}
+.end2 ul li a{
+	color: white;
+	text-decoration: none;
+	padding: 20px;
+
+}
+.end2 ul li a:hover{
+	background-color: orange;
+	color: black;
+	box-shadow: 0 0 15px hotpink;
+}
+.end3{
+	background-color: rgba(0, 0, 0, 0.5);
+}

@@ -1,0 +1,166 @@
+body{
+	background-image:url(see.jpg) ;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-size: cover;
+}
+*{
+
+	margin: 0;
+	padding: 0;                                                                                                                            
+	box-sizing: border-box;
+	
+
+}
+.head{
+	color: white;
+	align-items: center;
+	margin-left: 38px;
+	font-family: century;
+	font-size: 4.5rem;
+	font-weight: bold;
+	display: flex;
+}
+.head img{
+	height: 200px;
+	width: 350px;
+	
+}
+/*navbar*/
+.navbar{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(0, 0, 0, 0.9);
+	position: sticky;
+	top: 0;
+}
+.navbar ul{
+	display: flex;
+	list-style: none;
+	margin: 20px 0px;
+}
+.navbar ul li{
+	font-family: century;
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+.navbar ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 10px 28px;
+	transition: all .5s ease;
+}
+.navbar ul li a:hover{
+	background-color: white;
+	color: black;
+	box-shadow: 0 0 10px white;
+}
+.all{
+	background-color: rgba(0, 0, 0, 0.7);
+	margin-left: 40px;
+	margin-right: 40px;
+
+}
+.h{
+	font-family: century;
+	font-size: 5.7rem;
+	font-weight: bold;
+	color: pink;
+	text-align: center;
+}
+.hh{
+	text-align: center;
+	font-size: 1.7rem;
+	font-family: century;
+	color: darkorange;
+}
+.all img{
+	height: 200px;
+	width: 300px;
+	margin-left: 30px;
+	margin-top: 0px;
+}
+.hhh{
+	font-family: century;
+	font-weight: bold;
+	font-size: 30px;
+	color: lightsteelblue;
+	margin-left: 30px;
+}
+.lam{
+	display: flex;
+	color: white;
+	font-size: 20px;
+	background-color: rgba(0, 0, 0, 0.9);
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.sole{
+	
+	display: flex;
+
+}
+.sole img:hover{
+background-color: white;
+	width: 680px;
+	height: 580px;
+	box-shadow: 0 0 10px red;
+}
+.dif{
+	font-family: century;
+	font-size: 50px;
+	font-weight: bold;
+}
+.diff{
+	font-family: century;
+	font-size: 50px;
+	font-weight: bold;
+}
+.diff img{
+	height: 500px;
+	width: 1000px;
+}
+.image{
+	font-family: century;
+	font-size: 50px;
+	font-weight: bold;
+
+}
+.image img{
+	display: flex;
+	margin-left: 150px;
+}
+
+.end{
+	background-color: blue;
+	border: dotted;
+	color: white;
+
+
+}
+
+.end2{
+	display: flex;
+	margin-left: 30px;
+
+}
+.end2 ul{
+	list-style: none;
+	}
+.end2 ul li a{
+	color: white;
+	text-decoration: none;
+	padding: 20px;
+
+}
+.end2 ul li a:hover{
+	background-color: orange;
+	color: black;
+	box-shadow: 0 0 15px hotpink;
+}
+.end3{
+	background-color: rgba(0, 0, 0, 0.5);
+
+}
